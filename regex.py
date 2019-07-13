@@ -47,3 +47,5 @@ for post in posts:
     regex = '[\[\()][Ss]erious[\]\)]'
     post[0]= re.sub(regex, '[Serious]', post[0])
     posts_new.append(post)
+    
+re.findall("[1-2][0-9]{3}", 'On est en 2017, entre 2016 et 2018')
